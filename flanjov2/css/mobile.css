@@ -1,0 +1,113 @@
+:root {
+    --clr-surface-a0: #121212;
+    --clr-surface-a10: #1e584ccc;
+    --clr-surface-a20: #ffffff;
+    --clr-surface-a30: #00000066;
+    --clr-surface-a40: #ffffff;
+    --clr-surface-a50: #8b8b8b;
+
+    --linkcolor: #46b19a71;
+
+}
+
+body {
+    margin: 2% 2% 2% 2%;
+}
+
+header {
+    height: 7cqh;
+}
+
+header img {
+    height: 0;
+}
+
+header #htext {
+    font-size: 10cqw;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+a {
+    background-color: var(--linkcolor);
+}
+
+.buttons {
+    width: 0;
+    overflow: hidden;
+}
+
+.sec p {
+    width: 90%;
+    font-size: 3cqh;
+    margin: 2.5cqh;
+}
+
+
+.sec * {
+    display: block;
+    text-align: center;
+}
+
+
+
+.sideimages img {
+    height: 6cqh;
+
+    margin-left: 1cqh;
+    margin-right: 1cqh;
+}
+
+
+main .ph {
+    width: 55%;
+    margin: 2cqh 1cqh 1cqh 1cqh;
+}
+
+.img_anjo {
+    float: none;
+    height: 35cqh;
+}
+
+#update {
+    font-size: 1.8cqh;
+}
+
+.socials {
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.socials li, a {
+    text-decoration: none;
+    font-size: 3.6cqh;
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5cqh;
+    text-align: center;
+}
+
+.foxes {
+    display: inline;
+
+    margin: auto;
+
+    width: 99%;
+    text-align: center;
+}
+
+.foxes #images {
+    height: 15cqh;
+    margin-bottom: 5cqh;
+
+}
+
+.foxes #images img {
+    border-radius: 3px;
+    height: 32cqw;
+}
